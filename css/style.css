@@ -149,21 +149,19 @@ header {
     padding-top: 50px;
     padding-bottom: 50px; }
     .banner-section .col-md-8 {
-      padding: 0 20px !important;
-      max-width: 450px;
-      margin: auto; }
+      padding: 0 10px; }
       .banner-section .col-md-8 .heading {
-        font-size: 30px; }
+        font-size: 40px; }
         .banner-section .col-md-8 .heading br {
           display: none; }
       .banner-section .col-md-8 p {
-        font-size: 15px; }
+        font-size: 18px; }
       .banner-section .col-md-8 .btn-bg {
         padding: 9px 18px;
-        font-size: 15px; }
+        font-size: 18px; }
       .banner-section .col-md-8 .btn-transparent {
         padding: 9px 18px;
-        font-size: 15px; }
+        font-size: 18px; }
     .banner-section .btn-bg {
       display: block;
       margin: auto; }
