@@ -56,8 +56,9 @@ header {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 750px; }
-  header .navbar-toggler {
-    font-size: 25px; }
+    header .navbar-toggler i {
+    font-size: 25px;
+    color: #fff; }
   header .navbar-toggler:focus {
     box-shadow: none; }
   header .nav-link {
