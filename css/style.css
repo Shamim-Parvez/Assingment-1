@@ -133,6 +133,7 @@ header {
   .banner-section {
     text-align: center; }
     .banner-section .col-md-8 p {
+      padding: 20px 0;
       font-size: 17px; }
     .banner-section .col-md-8 .title1 {
       max-width: 500px;
@@ -167,6 +168,10 @@ header {
   .partner-section div {
     padding: 0 10px; } }
 @media (max-width: 480px) {
+  .banner-section .col-md-8 .title1 {
+    max-width: 450px;
+    margin: auto;
+    padding: 10px 0; }
   .banner-section .col-md-8 .heading {
     font-size: 28px !important; }
     .banner-section .col-md-8 .heading br {
