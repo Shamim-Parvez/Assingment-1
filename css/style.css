@@ -55,16 +55,13 @@ header {
   background-image: url("../images/bg1.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 750px; }
-    header .navbar-toggler i {
-    font-size: 25px;
-    color: #fff; }
+  background-size: 650px; }
   header .navbar-toggler:focus {
     box-shadow: none; }
   header .nav-link {
     padding-right: .9rem !important;
     padding-left: .9rem !important;
-    color: white;
+    color: #fff !important;
     font-size: 18px; }
     header .nav-link:hover {
       color: #0074E8; }
@@ -98,7 +95,7 @@ header {
 
 @media (max-width: 1199px) {
   header {
-    background-size: 650px; }
+    background-size: 550px; }
 
   .banner-section .heading {
     font-size: 45px; }
@@ -106,7 +103,7 @@ header {
     font-size: 20px; } }
 @media (max-width: 991px) {
   header {
-    background-size: 450px; }
+    background-size: 500px; }
 
   .banner-section {
     padding-top: 70px;
@@ -127,8 +124,6 @@ header {
   .partner-section div {
     padding: 0; } }
 @media (max-width: 767px) {
-  .navbar .container {
-    max-width: 650px; }
   .navbar .navbar-nav {
     padding-left: 20px; }
 
@@ -152,17 +147,17 @@ header {
     .banner-section .col-md-8 {
       padding: 0 10px; }
       .banner-section .col-md-8 .heading {
-        font-size: 40px; }
+        font-size: 35px; }
         .banner-section .col-md-8 .heading br {
           display: none; }
       .banner-section .col-md-8 p {
-        font-size: 18px; }
+        font-size: 15px; }
       .banner-section .col-md-8 .btn-bg {
         padding: 9px 18px;
-        font-size: 18px; }
+        font-size: 15px; }
       .banner-section .col-md-8 .btn-transparent {
         padding: 9px 18px;
-        font-size: 18px; }
+        font-size: 15px; }
     .banner-section .btn-bg {
       display: block;
       margin: auto; }
