@@ -1,0 +1,177 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-family: 'BioRhyme', serif; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.paragrap {
+  font-size: 20px;
+  color: #595959;
+  line-height: 1.4; }
+
+.tittle {
+  font-size: 25px;
+  color: #191919; }
+
+header {
+  background: #375280;
+  background-image: url("../images/bg1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 750px; }
+  header .navbar-toggler {
+    font-size: 25px; }
+  header .navbar-toggler:focus {
+    box-shadow: none; }
+  header .nav-link {
+    padding-right: .9rem !important;
+    padding-left: .9rem !important;
+    color: white;
+    font-size: 18px; }
+    header .nav-link:hover {
+      color: #0074E8; }
+  header img {
+    width: 150px; }
+
+.banner-section {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .banner-section .heading {
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: 500; }
+  .banner-section p {
+    font-size: 20px;
+    padding: 30px 0;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 10px; }
+  .banner-section .btn-bg {
+    background: #47B2E4;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-right: 20px; }
+  .banner-section .btn-transparent {
+    padding: 15px 30px;
+    font-size: 18px; }
+
+.partner-section {
+  padding: 20px 0; }
+
+@media (max-width: 1199px) {
+  header {
+    background-size: 650px; }
+
+  .banner-section .heading {
+    font-size: 45px; }
+  .banner-section p {
+    font-size: 20px; } }
+@media (max-width: 991px) {
+  header {
+    background-size: 450px; }
+
+  .banner-section {
+    padding-top: 70px;
+    padding-bottom: 70px; }
+    .banner-section .col-md-8 {
+      padding: 0; }
+      .banner-section .col-md-8 .heading {
+        font-size: 40px; }
+      .banner-section .col-md-8 p {
+        font-size: 18px; }
+      .banner-section .col-md-8 .btn-bg {
+        padding: 10px 20px;
+        font-size: 18px; }
+      .banner-section .col-md-8 .btn-transparent {
+        padding: 10px 20px;
+        font-size: 18px; }
+
+  .partner-section div {
+    padding: 0; } }
+@media (max-width: 767px) {
+  .navbar .container {
+    max-width: 650px; }
+  .navbar .navbar-nav {
+    padding-left: 20px; }
+
+  header {
+    background-image: url(); }
+
+  .banner-section {
+    text-align: center; }
+    .banner-section .col-md-8 p {
+      font-size: 17px; }
+    .banner-section .title1 {
+      max-width: 550px;
+      margin: auto; }
+
+  .partner-section div {
+    padding: 0; } }
+@media (max-width: 575px) {
+  .banner-section {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .banner-section .col-md-8 {
+      padding: 0 20px !important;
+      max-width: 450px;
+      margin: auto; }
+      .banner-section .col-md-8 .heading {
+        font-size: 30px; }
+        .banner-section .col-md-8 .heading br {
+          display: none; }
+      .banner-section .col-md-8 p {
+        font-size: 15px; }
+      .banner-section .col-md-8 .btn-bg {
+        padding: 9px 18px;
+        font-size: 15px; }
+      .banner-section .col-md-8 .btn-transparent {
+        padding: 9px 18px;
+        font-size: 15px; }
+    .banner-section .btn-bg {
+      display: block;
+      margin: auto; }
+    .banner-section .btn-transparent {
+      display: block;
+      margin: 20px auto; }
+
+  .partner-section div {
+    padding: 0 10px; } }
+
+/*# sourceMappingURL=style.css.map */
